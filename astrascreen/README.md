@@ -15,17 +15,6 @@ Hard limits always apply. AstraScreen advises; the QA engineer decides, and ever
 1. Install Python 3.9 or newer from python.org (tick "Add Python to PATH").
 2. Double-click **start_windows.bat**. It installs the packages and opens http://localhost:8000.
 
-## Start (Mac / Linux)
-```
-./start_mac_linux.sh
-```
-or by hand:
-```
-pip install -r requirements.txt
-python run.py            # opens http://localhost:8000
-```
-`run.py` uses **FastAPI** when it is installed. Without internet it falls back to a built-in Python
-server with exactly the same features, so the demo still works offline (`python run.py --basic` forces this).
 
 ## Try it
 1. Sign in with any name and a role (Reliability / QA engineer can do everything).
